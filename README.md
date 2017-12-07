@@ -26,7 +26,7 @@ and the display is usually located at addresses 0x20 to 0x27.
 
 Building and running the library<br>
 --------------------------------<br>
-make
-make -f make_demo
-./demo
+make<br>
+make -f make_demo<br>
+./demo<br>
 
