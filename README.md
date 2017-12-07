@@ -22,7 +22,10 @@ community.
 
 Before building the demo app, make sure that the I2C bus number and address
 of your display are correct. For Raspberry Pi boards, the I2C bus is usually 1
-and the display is usually located at addresses 0x20 to 0x27.
+and the display is usually located at addresses 0x20 to 0x27. Another thing to
+note is that you may not see anything on the display even though it works. There
+is a contrast control on the back which must be adjusted before the first use.
+
 
 Building and running the library<br>
 --------------------------------<br>
